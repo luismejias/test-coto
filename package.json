@@ -1,5 +1,5 @@
 {
-  "name": "test-riu",
+  "name": "test-coto",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -40,5 +40,6 @@
     "preset": "jest-preset-angular",
     "setupFilesAfterEnv": [
       "<rootDir>/setup-jest.ts"
-    ]  }
+    ]
+  }
 }
