@@ -1,4 +1,4 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import {
   FormControl,
   FormsModule,
@@ -19,10 +19,10 @@ import { CocktailService } from '../../core';
     FormsModule,
     ReactiveFormsModule,
   ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+  templateUrl: './cocktails.page.component.html',
+  styleUrl: './cocktails.page.component.scss',
 })
-export class HomeComponent implements OnInit {
+export class CocktailsPageComponent implements OnInit {
   private cocktailService = inject(CocktailService);
   readonly searchQuery = new FormControl('', [Validators.required]);
 
