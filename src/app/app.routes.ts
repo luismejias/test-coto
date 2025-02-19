@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
 export const appRoutes: Routes = [
   {
-    path: 'cocktails',
-    loadComponent: () => import('./features/coktails-page/cocktails.page.component').then((c)=> c.CocktailsPageComponent),
-    title: 'Cocktails page',
+    path: 'home',
+    loadComponent: () => import('./pages/home/home.component').then((c)=> c.HomeComponent),
+    title: 'Home page',
   },
   {
     path: '**',
